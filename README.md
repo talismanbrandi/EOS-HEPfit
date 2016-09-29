@@ -1,4 +1,4 @@
-"# EOS-HEPfit"
+# EOS-HEPfit
 
 1. To install HEPfit:
 
