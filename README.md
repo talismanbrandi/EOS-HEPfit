@@ -1,6 +1,6 @@
 # EOS-HEPfit
 
-1. To install HEPfit:
+#### To install HEPfit:
 
 tar xvzf HEPfit-core-1.0.tar.gz     
 mkdir build     
@@ -9,12 +9,12 @@ cmake .. -DLOCAL_INSTALL_ALL=ON -DNOMCMC=ON
 make    
 make install
 
-2. To make the event generator:
+#### To make the event generator:
 
 cd examples/EventGeneration   
 make
 
-3. To run the event generator:
+#### To run the event generator:
 
 The configuration files are in the folder called config/BKstll. Copy the folder BKstll to the EventGeneration folder. Then run
 
