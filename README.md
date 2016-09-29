@@ -2,16 +2,16 @@
 
 1. To install HEPfit:
 
-tar xvzf HEPfit-core-1.0.tar.gz
-mkdir build
-cd build/
-cmake .. -DLOCAL_INSTALL_ALL=ON -DNOMCMC=ON
-make
+tar xvzf HEPfit-core-1.0.tar.gz     
+mkdir build     
+cd build/     
+cmake .. -DLOCAL_INSTALL_ALL=ON -DNOMCMC=ON    
+make    
 make install
 
 2. To make the event generator:
 
-cd examples/EventGeneration
+cd examples/EventGeneration   
 make
 
 3. To run the event generator:
